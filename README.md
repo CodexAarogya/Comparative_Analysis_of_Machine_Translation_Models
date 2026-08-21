@@ -60,7 +60,7 @@ Encoder-decoder models without attention must compress an entire source sentence
 | Source vocabulary size | 2,044 tokens |
 | Target vocabulary size | 2,363 tokens |
 | Tokenizer | Whitespace tokenizer (deterministic, no external dependency) |
-| Random seed | 10 (data split seed: 4) |
+| Random seed | 3 (data split seed: 3) |
 
 **Preprocessing pipeline:** lowercasing → Unicode punctuation normalization → whitespace collapsing → tokenization → length filtering → deterministic train/val/test split → vocabulary building with `<pad>`, `<sos>`, `<eos>`, `<unk>` special tokens.
 
